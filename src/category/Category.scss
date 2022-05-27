@@ -1,0 +1,25 @@
+.main {
+    position: relative;
+
+    &:hover {
+        ul {
+                visibility: visible;
+                opacity: 1;
+            
+        }
+    }
+    ul {
+        position: absolute;
+        left: 0%;
+        top: 100%;
+        list-style: none;
+        visibility: hidden;
+        opacity: 0;
+        width: 200px;
+        z-index: 1000;
+        height: 120px;
+        background-color: white;
+        border: 1px solid rgba(0, 0, 0, 0.358);
+
+    }
+}

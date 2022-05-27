@@ -1,0 +1,21 @@
+#header{
+    box-shadow: 0 0 20px 0 #eee;
+    &.active{
+        background-color: #000;
+        a{
+            color: #fff;
+        }
+    }
+    nav.menu{
+        ul{
+           
+            li{
+                a{
+                    padding: 10px 15px; 
+                    display: block;
+                }
+            }
+        }
+    }
+   
+}
